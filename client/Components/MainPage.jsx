@@ -13,8 +13,8 @@ export default class MainPage extends Component {
           linkName1="https://myanimelist.net/animelist/TspinFTW"
           linkDisplay1="MAL"
           linkName2="https://reddit.com"
-          linkDisplay2="Reddit"
-        />
+          linkDisplay2="Reddit" >
+        </TopNav>
       </div>
     );
   };
