@@ -1,16 +1,14 @@
 // Main Page component to place items on page correctly
 import { Meteor } from 'meteor/meteor';
 import React, { Component } from 'react';
-/*import {
-  //
-} from 'reactstrap'; */
 
+import TopNav from './TopNav';
 
 export default class MainPage extends Component {
   render() {
     return(
       <div>
-        Hello Dillon
+        <TopNav />
       </div>
     );
   };
