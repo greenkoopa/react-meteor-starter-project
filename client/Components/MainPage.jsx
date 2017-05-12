@@ -8,7 +8,13 @@ export default class MainPage extends Component {
   render() {
     return(
       <div>
-        <TopNav />
+        <TopNav
+          name="Some Brand"
+          linkName1="https://myanimelist.net/animelist/TspinFTW"
+          linkDisplay1="MAL"
+          linkName2="https://reddit.com"
+          linkDisplay2="Reddit"
+        />
       </div>
     );
   };

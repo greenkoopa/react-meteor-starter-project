@@ -26,14 +26,14 @@ export default class TopNav extends Component {
       <div>
       <Navbar color="faded" light toggleable>
         <NavbarToggler right onClick={this.toggle} />
-        <NavbarBrand href="/">Learning React Strap</NavbarBrand>
+        <NavbarBrand href="/">{this.props.name}</NavbarBrand>
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="https://myanimelist.net/animelist/TspinFTW">MAL</NavLink>
+              <NavLink href={this.props.linkName1}>{this.props.linkDisplay1}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://reddit.com">Reddit</NavLink>
+              <NavLink href={this.props.linkName2}>{this.props.linkDisplay2}</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
